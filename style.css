@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(-45deg, #c12020 ,#b36767 , #a19e87 );
+    width: 100vw;
+}
+
+.calculator{
+    width: 90%;
+    height: 90%;
+    max-width: 400px;
+    max-height: 600px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    /* box-shadow: 3px 3px 15px gray; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.display{
+    height: 20%;
+    color: white;
+    display: flex;
+    font-size: 3em;
+    align-items: center;
+    justify-content: right;
+    padding: 0 20px;
+    border: 1px solid white;
+    /* overflow: hidden; */
+}
+
+.section{
+    height: 16%;
+    display: flex;
+}
+.first{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #949ea0;
+    color: rgb(24, 24, 24);
+    border: 1px solid white;
+    font-size: 2em;
+    transition: 0.4s ease all;
+}
+.first:hover, .second:hover, .third:hover, .decimal:hover, .zero:hover{
+    scale: 1.05;
+}
+.second{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ced1da;
+    color: black;
+    font-size: 2em;
+    border: 0.5px solid white;
+    transition: 0.4s ease all;
+}
+.third{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ced1da;
+    color: black;
+    font-size: 2em;
+    border: 0.5px solid white;
+    transition: 0.4s ease all;
+}
+.sectuin4{
+    display: flex;
+    height: 32%;
+    width: 100%;
+    background-color: #fff;
+}
+.part1{
+    width: 75%;
+    height: 100%;
+}
+.part2{
+    width: 25%;
+    height: 100%;
+    background-color: #d3511d;
+    display: flex;
+    font-size: 2em;
+    transition: 0.4s ease all;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 0.5px solid white;
+}
+.part2:hover{
+    background-color: #a23d16;
+
+}
+.sub1{
+    height: 50%;
+    display: flex;
+    width: 100%;
+
+}
+.sub2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.zero{
+    width: 66.67%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    background-color: #ced1da;
+    color: black;
+    transition: 0.4s ease all;
+    border: 0.5px solid white;
+}
+.decimal{
+    width: 33.3%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ced1da;
+    color: black;
+    transition: 0.4s ease all;
+    font-size: 2em;
+    border: 0.5px solid white;
+}
